@@ -179,7 +179,7 @@ const GenericTable = <T extends RowType, K extends keyof T>({
         <TablePagination
           rowsPerPageOptions={rowsPerPageOptions || [5, 10, 25]}
           component="div"
-          count={totalRows || rowCells.length}
+          count={totalRows || rows.length}
           rowsPerPage={rowsPerPage}
           page={page}
           onPageChange={handleChangePage}

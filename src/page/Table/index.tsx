@@ -97,6 +97,7 @@ const Table = () => {
         <GenericTable
           rows={genericTableRows}
           headCells={genericTableHeadCells}
+          showHeadCells={true}
           sorting={true}
         />
       </Box>
